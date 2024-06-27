@@ -7,5 +7,7 @@ cask "mame" do
   desc "Port of the multi-purpose emulation framework"
   homepage "https://sourceforge.net/projects/mameosx/"
 
+  depends_on arch: :x86_64
+
   app "MAME OS X.app"
 end

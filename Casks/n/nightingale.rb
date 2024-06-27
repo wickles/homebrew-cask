@@ -21,5 +21,7 @@ cask "nightingale" do
     end
   end
 
+  depends_on arch: :x86_64
+
   app "Nightingale.app"
 end

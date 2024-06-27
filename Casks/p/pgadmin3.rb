@@ -16,6 +16,8 @@ cask "pgadmin3" do
 
   deprecate! date: "2025-05-01", because: :unsigned
 
+  depends_on arch: :x86_64
+
   app "pgAdmin3.app"
 
   zap trash: [

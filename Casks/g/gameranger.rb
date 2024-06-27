@@ -11,6 +11,8 @@ cask "gameranger" do
     strategy :extract_plist
   end
 
+  depends_on arch: :x86_64
+
   app "GameRanger.app"
 
   zap trash: [
